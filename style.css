@@ -1,0 +1,451 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : 28 Jun, 2017, 9:19:18 PM
+    Author     : Sahadeb Barman
+*/
+
+#container{
+    margin: 0px auto;
+    width: 914px;
+    
+}
+#header{
+    position: relative;
+    width:880px;
+    left: 12px;
+    padding: 0px 0px 0px 0px;
+}
+#logo{
+    top: 0px;
+    
+    float: left;
+  
+   
+    padding: 0px 0px 0px 0px;
+}
+#upper-login{
+    padding: 0px 0px 0px 0px;
+    top: 0px;
+    width: 500px;
+    float: right;
+    
+  
+}
+#upper-loggedin{
+    padding: 0px 0px 0px 0px;
+    top: 0px;
+    width: 400px;
+    float: right;
+    
+  
+}
+
+.up-login input[type=text]{
+    padding: 0px 0px 0px 0px;
+    margin-left: 10px;
+    text-align: center;
+    border: none;
+    width: 138px;
+    height:23px;
+    background-color:#d9d5cd;
+}
+.up-login input[type=password]{
+    padding: 0px 0px 0px 0px;
+    border: none;
+    width: 138px;
+    text-align: center;
+    margin-right: 10px;
+    margin-left: 12px;
+    height:23px;
+    background-color:#d9d5cd;
+}
+
+.up-login input[type=submit]{
+    padding: 0px 0px 0px 0px;
+    text-align: center;
+    border: none;
+    height:23px;
+    width: 138px;
+    margin-right: 10px;
+    background-color:  #2d093a;
+}
+#nav{
+    position: relative;
+    top: -50px;
+}
+
+.clear-fix{
+    clear: both;
+}
+.middle{
+    text-align: center;
+}
+ul {
+    
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+}
+
+li {
+    float: left;
+}
+
+li a, .dropbtn {
+    display: inline-block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+li a:hover, .dropdown:hover .dropbtn {
+    background-color: red;
+}
+
+li.dropdown {
+    display: inline-block;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+}
+
+.dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    text-align: left;
+}
+
+.dropdown-content a:hover {background-color: #f1f1f1}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+
+#notice{
+    position:relative;
+    top: -50px;
+    left:20px;
+
+    width: 835px;
+    background-color: #fffffc;
+    padding:0px 0px 0px 0px;
+}
+
+
+
+#box{
+    
+    width: 350px;
+    padding:20px 10px 0px 10px;
+}
+.left{
+    float: left;
+}
+.right{
+    float: right;
+}
+input[type=text],[type=email],[type=mobile], [type=date],[type=password],select {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    
+    
+}
+input[type=number]{
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    
+}
+
+input[type=submit] {
+    width: 100%;
+    background-color: #4CAF50;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+input[type=file] {
+    width: 680px;
+    background-color:  azure;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    text-align: center;
+    
+}
+
+input[type=submit]:hover {
+    background-color: #45a049;
+}
+
+div {
+    color:green;
+    border-radius: 10px;
+    
+    padding: 20px;
+}
+.fieldset{
+    border-color: azure;
+    color: #2c11b2;
+}
+#registration_form{
+    position: relative;
+    top: -50px;
+    
+        
+}
+
+
+.butn1{
+    width: 138px;
+    background-color:#2fb44e;
+    text-decoration:none;
+    color:white;
+    border-radius:4px;
+    
+    position:relative;
+    left:-18px;
+    float: right;
+    height:23px;
+    border:none;
+    
+}
+button:hover{
+    background-color: red;
+    cursor: pointer;
+}
+input[type=submit]:hover{
+    background-color: red;
+    cursor: pointer;
+}
+
+.butn2{
+    width: 138px;
+    background-color:#2fb24e;
+    text-decoration:none;
+    color:white;
+    border-radius:4px;
+    
+    position:relative;
+    left:-18px;
+    float: right;
+    height:23px;
+    border:none;
+    
+}
+#signup{
+    width: 450px;
+     padding: 0px 0px 0px 0px;
+     float:right;
+     border:none;
+
+}
+#reset{
+    position:relative;
+    top:5px;
+    width: 450px;
+    padding: 0px 0px 0px 0px;
+    float:right;
+    border:none;
+}
+
+button a{
+    color:white;
+    text-decoration:none;
+}
+
+label.shiftright{
+    color:red;
+    margin-left:10px;
+    
+}
+
+.adr{
+    
+}
+label{
+    color:#22a42a;
+}
+
+#profile_image{
+   float: right;
+    width: 80px;
+    height:80px;
+    background-color:gray;
+    
+    padding: 0px 0px 0px 0px;
+}
+#info_box{
+    height: 30px;
+    padding: 0px 0px 0px 0px;
+
+}
+text{
+    color: #8382e2;
+    
+}
+.up{
+    text-transform: uppercase;
+}
+.low{
+    text-transform: lowercase;
+}
+.cap{
+    text-transform: capitalize;
+}
+#logout{
+    border:none;
+    background-color:#0f9446;
+    height:25px; 
+    width:80px; 
+    color:#fffffc;
+    padding:0px 0px 0px 0px;
+    border-radius:5px;
+}
+#logout:hover {
+    background-color:red;
+    cursor:pointer;
+
+}
+
+
+#login_box{
+    
+    position: relative;
+    width:300px;
+    height:200px;
+    left:310px;
+   top:-80px;
+    padding:0px 0px 0px 0px;
+    
+}
+
+#admin{
+    position:relative;
+    top:-30px;
+    
+}
+#admin_error{
+    
+    position:relative;
+    top:-30px;
+    width:500px;
+    left:150px;
+    text-align:center;
+    color:red;
+}
+
+#errors{
+    position:relative;
+    top:-30px;
+    
+}
+
+#admin_success{
+    
+    position:relative;
+    top:-30px;
+    width:500px;
+    left:150px;
+    text-align:center;
+    color:#362e09;
+}
+
+#all_error{
+    
+    position:relative;
+    top:-70px;
+    width:500px;
+    left:150px;
+    text-align:center;
+    color:red;
+}
+#login_error{
+    
+    position:relative;
+    top:-80px;
+    width:500px;
+    left:190px;
+    text-align:center;
+    color:red;
+}
+
+#all_success{
+    
+    position:relative;
+    top:-30px;
+    width:500px;
+    left:150px;
+    text-align:center;
+    color:#362e09;
+}
+
+
+#confrim_delete{
+    
+}
+
+#profile{
+    position:relative;
+    top:-80px;
+
+    background-color:#0d0802;
+
+    padding:0px 0px 0px 0px;
+    width:870px;
+    left:20px;
+}
+.add_admin{
+    
+    float:left;
+    width:310px;
+    padding:0px 0px 0px 0px;
+    height:38px;
+    background-color:#4caf50;
+    border:none;
+    border-radius:5px;
+    color:white
+
+}
+#footer{
+    text-align: center;
+    color:  darkgoldenrod;
+    position:relative;
+    background-color:  darkgrey;
+    height: 50px;
+    padding:0px 0px 0px 0xp;
+    width:830px;
+    left:20px;
+}
